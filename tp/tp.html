@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script language="javascript">
+        document.write("<p>to write in the document we use </p>");  
+        let d = new Date();
+        document.getElementById("demo").innerHTML = d;
+
+  </script>
+  <a href="javascript:alert('hello')">cliquer pour recevoir un message</a>
+  <button onclick="alert('hello')">cliquer </button><br>
+  <br> 
+  <script>
+    var s=25
+    if (s<=10) {
+        document.write("ressui <br>") 
+        }
+        else if(s>=22)    { 
+            document.write("vraie <br>")  
+        }
+        else{
+            document.write("false <br>")
+        }
+    </script>    
+  <script>
+    for (let i=0 ;i<10;i++){
+        if(i==3){break}
+        document.write("the number"+i+"<br>")
+    }
+    function f1(){
+        return 
+    }
+
+    
+  </script>
+   
+    <button onclick='print()'>imprimer</button>
+    <button onclick="javascrript:window.prompt('hello')">un comentaire</button>
+    <button onclick="javascrript:window.confirm('hello')">confirmer</button>    
+</body>
+</html>
